@@ -1,5 +1,19 @@
+
 {
-  "settingsInheritedFrom": "xinYG/whitesource-config@main",
   "scanSettings": {
-    "configMode":LOCAL
+    "configMode": "LOCAL",
+    "configExternalURL": "",
+    "baseBranches": []
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "success",
+    "displayMode": "diff"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW"
+  },
+  "remediateSettings": {
+    "enableRenovate": "true",
+    "transitiveRemediation": "false"
+  }
 }
