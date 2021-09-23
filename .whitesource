@@ -1,0 +1,18 @@
+{
+  "scanSettings": {
+    "configMode": "LOCAL",
+    "configExternalURL": "",
+    "baseBranches": []
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "success",
+    "displayMode": "diff"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW"
+  },
+  "remediateSettings": {
+    "enableRenovate": "true",
+    "transitiveRemediation": "false"
+  }
+}
